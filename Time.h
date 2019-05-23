@@ -5,7 +5,9 @@ class Time
 {
   public:
     void pastTime();
-    void getTime
+    void getTime();
+  private:
+    Time();
 
 };
-#indef
+#endif
