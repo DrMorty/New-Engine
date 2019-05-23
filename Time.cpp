@@ -5,7 +5,7 @@
 void Time::pastTime()
 { 
      auto start  = std::chrono::system_clock::now();
-     \\ ждем выполнения
+     // ждем выполнения
      auto end = std::chrono::system_clock::now();
      int delta = std::chrono::duration_cast<std::chrono::seconds>(end-start).count();
      std::cout << delta;
